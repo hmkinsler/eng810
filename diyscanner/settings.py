@@ -1,0 +1,1 @@
+capture_directory = "C:\Users\hmkinsle\Documents\eng810\diyscanner\capture_directory" # this sets the directory that each captured image will be written to; the path for this will change depending on the machine where the program is being run
