@@ -1,5 +1,5 @@
 ---
-title: Week Nine Documentation Notes
+title: Week Ten Documentation Notes
 course: ENG 810
 semester: Fall 2025
 tags: #documentation
@@ -7,7 +7,7 @@ created: 2025-10-19
 ---
 
 ## Current Status of DIY Scanner Backend Files
-- I began reworking the [capture.py script](/diyscanner/capture.py) and added notes about the choices I made when writing the script and issues I ran into
+- Further reworking of the [capture.py](/diyscanner/capture.py) script to work on successfully capturing images for both of my Nikon cameras with the [gphoto2 command line utility](http://www.gphoto.org/doc/manual/ref-gphoto2-cli.html#cli-examples) on the Raspberry Pi
 
 # Helsinki MOOC
 ## Unit One Progress
@@ -55,9 +55,10 @@ created: 2025-10-19
     - For loops
 
 # Raspberry Pi
-- As mentioned at our last meeting, I was successfuly was able to [take a picture and save the file to a directory on the Raspberry Pi](https://youtu.be/PDsRIjVdeC0) using [this tutorial](https://pimylifeup.com/raspberry-pi-dslr-camera-control/) for controlling DSLRs on Raspberry Pi with [gphoto2](http://www.gphoto.org/)
-- This has not been consistent, however, and I tried redoing the installation on a different Raspberry Pi, redoing the installation process on the Raspberry Pi I used previously, etc., so there's some troubleshooting we need to do there
-
+- I was able to get images captured on the two cameras separately and am able to more consistently take photos using [capture.py](/diyscanner/capture.py) with the Nikon D70, but I am still working on a way to more consistently identify the two cameras apart from the --port command because the port ID changes for the cameras each time that they are plugged into the Raspberry Pi or turned off/on
+- In order to see if there are pre-existing tools, softwares, or scripts that are used for scanning, I tried installing the dependencies for [Spreads](https://spreads.readthedocs.io/en/v0.4.2/) and (seemed to) confirm that it is too outdated to be usable on Linux or other Raspberry Pi operating systems
+- I ran into similar issues testing out [Scantailor](https://scantailor.org/), though this may be worth [reapproaching with a Windows machine](https://www.youtube.com/watch?v=IM1EqJ3MCII) based on some recent video tutorials I came across or seeing if a [more recent build with some updated dependencies](https://github.com/4lex4/scantailor-advanced) works better
 
 # Experimenting w/ Arduino to control foot pedal
-- Followed up with David Rieder and he suggested to instead consider creating a more simple circuit using buttons with the Raspberry Pi-- we can always use the pedal as a container for the buttons later on
+- Still need to draw up wire diagram
+- Plan to revisit the [capture.py](/diyscanner/capture.py) script to use either buttons or foot pedal switches to determine which camera(s) are included in the main function block
