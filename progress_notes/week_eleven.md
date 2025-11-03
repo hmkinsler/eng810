@@ -8,6 +8,7 @@ created: 2025-11-03
 
 ## Current Status of DIY Scanner Backend Files
 - I have succesfully written a [capture.py script](/diyscanner/capture.py) that allows me to capture and save images to a folder with both my Nikon D3500 and Nikon D70 cameras
+- Demonstration of camera capturing [here](https://youtu.be/D0Inl5WpwX4)
 
 # Helsinki MOOC
 ## Unit One Progress
@@ -55,9 +56,10 @@ created: 2025-11-03
     - For loops
 
 # Raspberry Pi
-- I was able to successfully build and compile
+- I was able to successfully [build and compile Scantailor-Advanced](/raspberry_pi/build_compile_scantailor-advanced.md)
 
 # Experimenting w/ Arduino to control foot pedal
 - Still need to draw up wire diagram
 - Plan to revisit the [capture.py](/diyscanner/capture.py) script to use either buttons or foot pedal switches to determine which camera(s) are included in the main function block
-- I haven't worked with the foot pedal yet, but I did manage to get something set up on a breadboard
+- Demonstration of camera capturing [here](https://youtu.be/D0Inl5WpwX4)
+- I haven't worked with the foot pedal yet, the [image capture demonstration]() shows how I set-up two switches to connect to each camera as an alternative for now
