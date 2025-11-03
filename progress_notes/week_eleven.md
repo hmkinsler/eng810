@@ -61,5 +61,4 @@ created: 2025-11-03
 # Experimenting w/ Arduino to control foot pedal
 - Still need to draw up wire diagram
 - Plan to revisit the [capture.py](/diyscanner/capture.py) script to use either buttons or foot pedal switches to determine which camera(s) are included in the main function block
-- Demonstration of camera capturing [here](https://youtu.be/D0Inl5WpwX4)
-- I haven't worked with the foot pedal yet, the [image capture demonstration]() shows how I set-up two switches to connect to each camera as an alternative for now
+- I haven't worked with the foot pedal yet, the [image capture demonstration](https://youtu.be/D0Inl5WpwX4) shows how I set-up two switches to connect to each camera as an alternative for now
